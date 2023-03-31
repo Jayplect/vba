@@ -55,7 +55,7 @@ A functionality was added to retrieve the stock with the "Greatest % increase", 
 
                 Next i
 
-A reset function was also included to easily clear the summary table in one click using the script:
+#### A reset function was also included to easily clear the summary table in one click using the script:
         
         Sub reset():
         'set the summary table to blank
@@ -69,7 +69,7 @@ A reset function was also included to easily clear the summary table in one clic
             wsSummary.Range("J:J").Interior.ColorIndex = 0
          Next wsSummary
 
-#### The final results is presented below
+#### A snapshot of the final result showing the summary table is presented below:
 All stocks with a yearly change less than 0 are formatted to red while those greater than 0 are formatted green.
 
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/107348074/228947608-ea2410ff-cf75-486c-8ff8-cc93132af784.png">
